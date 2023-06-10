@@ -1,0 +1,34 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "todo",
+    "name": "todo",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["todo"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {
+        "getCards": {
+            "path": "../../actions/getcards.action",
+            "runOn": "server"
+        },
+        "postCard": {
+            "path": "../../actions/postcard.action",
+            "runOn": "server"
+        }
+    },
+    "config": {
+        "showText": {
+            "friendlyName": "showText",
+            "description": "example config value",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties"
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

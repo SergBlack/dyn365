@@ -1,0 +1,13 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "showText": "Example Config Value"
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response !!!",
+      "someKey": "Some value"
+    }
+  },
+  "typeName": "todo"
+}
